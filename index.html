@@ -45,7 +45,7 @@
 	}
 	ajax = new XMLHttpRequest();
 if(ajax!=null){
-    ajax.open("GET","https://europe-west3-devrcc.cloudfunctions.net/whatismyip",true);
+    ajax.open("GET","https://im6875b3b8.execute-api.us-west-2.amazonaws.com/default/GetIpFunction",true);
     ajax.onreadystatechange = function() {
         if(this.readyState == 4) {
             if(this.status == 200) {
